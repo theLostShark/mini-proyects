@@ -1,2 +1,2 @@
-# Grado superior de Desarrollo de Aplicaciones Web
+# Desarrollo de Aplicaciones Web
 ## (ejercicios para practicar)

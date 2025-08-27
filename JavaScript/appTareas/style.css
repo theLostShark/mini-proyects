@@ -8,8 +8,8 @@
 .container{
   width: 100%;
   min-height: 100vh;
-background: #2A7B9B;
-background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+background: #e6e3e3;
+background: linear-gradient(141deg, rgba(230, 227, 227, 1) 0%, rgba(83, 175, 189, 1) 100%);
   padding: 1px;
 }
 
@@ -52,11 +52,12 @@ input{
 .btn-add {
   margin: 0px;
   background-color: #319dac;
-  color: ffffff;
-  font-size: 15px;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: bolder;
   cursor: pointer;
   border: 0;
-  padding: 16px 35px;
+  padding: 5px 25px ;
   border-radius:0px 5px 5px 0;
 }
 
@@ -77,6 +78,8 @@ ul li {
 
 .btn-completar{
   background-color: transparent;
+    color: #ffffff;
+    font-size: large;
   content: '';
   position: absolute;
   height: 30px;
@@ -89,6 +92,8 @@ ul li {
 
 .btn-eliminar{
     background-color: transparent;
+    color: #ffffff;
+    font-size: large;
   content: '';
   position: absolute;
   height: 30px;
@@ -102,5 +107,22 @@ ul li {
 .completada {
   text-decoration: line-through;
   color: #949494;
+}
+
+.btn-clear{
+   margin: 0px;
+  background-color: #b9b9b9;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  border: 0;
+  padding: 5px 20px ;
+  margin-top: 20px;
+  border-radius:5px;
+}
+
+.btn-clear:hover{
+  background-color: #c04545;
 }
 

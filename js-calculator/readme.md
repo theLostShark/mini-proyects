@@ -1,3 +1,3 @@
-# Calculadora con HTML, CSS y JavaScript
+# Calculator using JavaScript, html and css
 
 ![Resultado](appCalculadora.jpeg)

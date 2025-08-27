@@ -2,10 +2,12 @@
 const inputTarea = document.getElementById("inputTarea");
 const listaTareas = document.getElementById("listaTareas");
 const botonAdd = document.getElementById("botonAdd");
+const botonClear = document.getElementById("botonClear");
 
 
-// Manejar el evento de agregar tarea
+// Manejar el evento de agregar tarea / borrar lista
 botonAdd.addEventListener("click", agregarTarea);
+botonClear.addEventListener("click", clearAll);
 
 
 //funcion de agregar tareas
@@ -17,7 +19,7 @@ function agregarTarea() {
 
         //boton completar tarea
         let botonCompletar = document.createElement("button");
-        botonCompletar.textContent = "✔️";
+        botonCompletar.textContent = "✔";
         botonCompletar.classList.add("btn-completar");
         botonCompletar.addEventListener("click", function () {
             li.classList.toggle("completada");
@@ -27,7 +29,7 @@ function agregarTarea() {
 
         // Botón de eliminar
         let botonEliminar = document.createElement("button");
-        botonEliminar.textContent = "❌";
+        botonEliminar.textContent = "✖";
         botonEliminar.classList.add("btn-eliminar");
         botonEliminar.addEventListener("click", function () {
             li.remove();
@@ -55,5 +57,11 @@ function guardarDatos() {
 function mostrarTareas() {
     listaTareas.innerHTML = localStorage.getItem('data');
 }
-
 mostrarTareas();
+
+
+//funcion borrar todo
+function clearAll() {
+    listaTareas.innerHTML = "";
+    localStorage.removeItem('data');
+}

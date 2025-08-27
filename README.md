@@ -1,2 +1,2 @@
-# Desarrollo de Aplicaciones Web
-## (ejercicios para practicar)
+# Small proyects 
+## for practice and fun!

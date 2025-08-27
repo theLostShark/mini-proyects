@@ -1,19 +1,18 @@
 # Small proyects 
 ## for practice and fun!
 
-mini-projects/
-|
-├── js-calculator
-  //calculator using javascript, HTML and CSS
-|
-├── js-pokedex
-  //Pokedex with Pokeapi, HTML, CSS and JS
-|
-├── js-todo-list
-  //Pokedex with Pokeapi, HTML, CSS and JS
-|
-├── crud_tienda
-  //Basic CRUPD with PHP & MySQL, using Bootstrap for styles.
-|
+### 📁 List of Projects
+
+- **js-calculator**  
+  Calculator using JavaScript, HTML and CSS.
+
+- **js-pokedex**  
+  Pokedex using PokeAPI, HTML, CSS and JS.
+
+- **js-todo-list**  
+  To do List built with JS, HTML and CSS.
+
+- **crud_tienda**  
+  Basic CRUD with PHP & MySQL. Uses Bootstrap for styling.
 
 

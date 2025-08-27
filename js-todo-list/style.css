@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+background: #e6e3e3;
+background: linear-gradient(141deg, rgba(230, 227, 227, 1) 0%, rgba(83, 175, 189, 1) 100%);
+  padding: 1px;
+}
+
+.box{
+  background-color: #565c63;
+  max-width: 500px;
+  margin: 100px auto 20px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.box-tareas{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+
+input{
+  flex:1;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 15px;
+}
+
+.btn-add {
+  margin: 0px;
+  background-color: #319dac;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: bolder;
+  cursor: pointer;
+  border: 0;
+  padding: 5px 25px ;
+  border-radius:0px 5px 5px 0;
+}
+
+#listaTareas{
+  margin-top: 30px;
+}
+
+ul li {
+  border-bottom: 1px rgb(131, 131, 131) solid;
+  list-style:decimal-leading-zero;
+  margin-bottom: 5px;
+  margin-left: 35px;
+  color: #ffffff;
+  padding: 5px 10px;
+  position: relative;
+}
+
+
+.btn-completar{
+  background-color: transparent;
+    color: #ffffff;
+    font-size: large;
+  content: '';
+  position: absolute;
+  height: 30px;
+  width:30px;
+  border:none;
+  right: 35px;
+  top:0px;
+  cursor: pointer;
+}
+
+.btn-eliminar{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: large;
+  content: '';
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border:none;
+  right: 0px;
+  top:0px;
+  cursor: pointer;
+}
+
+.completada {
+  text-decoration: line-through;
+  color: #949494;
+}
+
+.btn-clear{
+   margin: 0px;
+  background-color: #b9b9b9;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  border: 0;
+  padding: 5px 20px ;
+  margin-top: 20px;
+  border-radius:5px;
+}
+
+.btn-clear:hover{
+  background-color: #c04545;
+}

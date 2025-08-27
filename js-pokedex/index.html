@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Pokedex</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><button class="btn-header all" id="ver-todos">All</button></li>
+                <li class="nav-item"><button class="btn-header normal" id="normal">Normal</button></li>
+                <li class="nav-item"><button class="btn-header fire" id="fire">Fire</button></li>
+                <li class="nav-item"><button class="btn-header water" id="water">Water</button></li>
+                <li class="nav-item"><button class="btn-header grass" id="grass">Grass</button></li>
+                <li class="nav-item"><button class="btn-header electric" id="electric">Electric</button></li>
+                <li class="nav-item"><button class="btn-header ice" id="ice">Ice</button></li>
+                <li class="nav-item"><button class="btn-header fighting" id="fighting">Fighting</button></li>
+                <li class="nav-item"><button class="btn-header poison" id="poison">Poison</button></li>
+                <li class="nav-item"><button class="btn-header ground" id="ground">Ground</button></li>
+                <li class="nav-item"><button class="btn-header flying" id="flying">Flying</button></li>
+                <li class="nav-item"><button class="btn-header psychic" id="psychic">Psychic</button></li>
+                <li class="nav-item"><button class="btn-header bug" id="bug">Bug</button></li>
+                <li class="nav-item"><button class="btn-header rock" id="rock">Rock</button></li>
+                <li class="nav-item"><button class="btn-header ghost" id="ghost">Ghost</button></li>
+                <li class="nav-item"><button class="btn-header dark" id="dark">Dark</button></li>
+                <li class="nav-item"><button class="btn-header dragon" id="dragon">Dragon</button></li>
+                <li class="nav-item"><button class="btn-header steel" id="steel">Steel</button></li>
+                <li class="nav-item"><button class="btn-header fairy" id="fairy">Fairy</button></li>
+            </ul>
+        </nav>
+        <div class="header-search">
+            <form id="searchPokemon" onsubmit="buscarPokemon(event)">
+                <input type="text" id="buscador" placeholder="Search pokemon by name or number">
+                <button type="submit" class="btn-search">
+                  <img src="search-svgrepo-com.svg" width="20" height="20">
+                </button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div id="todos">
+            <div class="pokemon-todos" id="listaPokemon">
+
+                <!-- Pokemon sample: 
+                  <div class="pokemon">
+                    <div class="pokemon-imagen">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Pikachu">
+                    </div>
+                    <div class="pokemon-info">
+                        <div class="nombre-contenedor">
+                            <h2 class="pokemon-nombre">Pikachu</h2>
+                            <p class="pokemon-id">#025</p>
+                        </div>
+                        <div class="pokemon-tipos">
+                            <button class="btn electric">Electric</button>
+                        </div>
+                    </div>
+                </div>
+                 -->
+            </div>
+        </div>
+    </main>
+
+
+    <script src="pokedex.js"></script>
+</body>
+</html>

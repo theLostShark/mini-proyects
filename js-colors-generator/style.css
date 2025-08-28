@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #cdced8;
+}
+
+.container{
+  min-height: 100vh;
+  margin: 80px auto;
+  max-width: 1024px;
+}
+
+.color-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-list .color{
+background-color: #fff;
+text-align: center;
+list-style: none;
+margin: 13px;
+padding: 10px;
+border-radius: 6px;
+box-shadow: 5px 5px 10px rgba(117, 122, 143, 0.2);
+}
+
+.color-list .color:active{
+transform: scale(1.05);
+}
+
+.color .react-box {
+width: 155px;
+height: 155px;
+}
+
+.hex-value{
+  display: block;
+  margin: 12px 0 8px;
+  color: dimgrey;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.buttonCreate{
+ margin: 0px;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 25px ;
+  border-radius:0px 5px 5px 0;
+}
+
+.box{
+  display: grid;
+  place-items: center;
+  margin: 20px auto;
+}
+
+.box2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+input{
+  width: 150px;
+  flex:1;
+  border: 0;
+  outline: 0;
+  background: white;
+  font-size: 15px;
+
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  text-shadow: 5px 5px 10px rgba(117, 122, 143, 0.2);
+}

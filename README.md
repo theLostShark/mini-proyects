@@ -20,7 +20,8 @@
 - 🎮 **js-rock-paper-scissors-game**   
   using JavaScript, html and css.
   
-- 🎨 soon, color generator
+- 🎨 **js-colors-generator**   
+  generate a color palette of sRGB random colors, using JavaScript, html and css.
 
 **PHP**
 - 🛒 **crud_tienda**  

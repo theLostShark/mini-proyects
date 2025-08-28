@@ -1,5 +1,5 @@
-#Length Converter using JavaScript, html and css
+# Length Converter using JavaScript, html and css
 
 
-![Resultado](colorconverter.png)
+![Resultado](converter.png)
 

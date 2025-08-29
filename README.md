@@ -1,5 +1,7 @@
 # Small proyects 
 ### for practice and fun!
+Most of these projects are based on other peoples codes and youtube tutorials, with some tweaks and additions from my part, as well as my css code for styling (because yes, I enjoy way too much that part), and were made for practice and learning. Feel free to use them for learning too!
+
 
 ## 📁 List of Projects
 

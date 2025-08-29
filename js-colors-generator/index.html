@@ -8,20 +8,43 @@
   </head>
   <body>
     <div class="container">
-      <h1>sRGB COLOR GENERATOR</h1>
-      <div class="box">
-        <div class="box2">
+      <div class="menu">
+        <h1>sRGB COLOR GENERATOR</h1>
+        <div class="menu-btn">
           <input
             type="number"
             id="inputColors"
+            class="inputColors"
             placeholder="Number of colors"
             min="1"
-            max="32"
+            max="50"
           />
           <button id="buttonCreate" class="buttonCreate">CREATE PALETTE</button>
         </div>
+<div class="menu-cboxes">
+  <label class="cbox">
+    <input type="radio" name="tone" value="random" checked /> All colors
+  </label>
+  <label class="cbox">
+    <input type="radio" name="tone" value="warm" /> Warm
+  </label>
+  <label class="cbox">
+    <input type="radio" name="tone" value="cool" /> Cool
+  </label>
+  <label class="cbox">
+    <input type="radio" name="tone" value="gray-tint" /> Gray Tints
+  </label>
+  <label class="cbox">
+    <input type="radio" name="tone" value="pastel" /> Pastel
+  </label>
+   <label class="cbox">
+    <input type="radio" name="tone" value="muted" /> Muted
+  </label>
+</div>
       </div>
-      <ul id="color-list" class="color-list"></ul>
+      <div class="color-container">
+        <ul id="color-list" class="color-list"></ul>
+      </div>
     </div>
 
     <script src="js.js"></script>

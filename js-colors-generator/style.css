@@ -18,6 +18,7 @@ body{
 .color-list{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .color-list .color{
@@ -48,8 +49,45 @@ height: 155px;
   cursor: pointer;
 }
 
-.buttonCreate{
- margin: 0px;
+
+
+.menu{
+margin: 20px;
+}
+
+.menu h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  text-shadow: 5px 5px 10px rgba(117, 122, 143, 0.2);
+}
+
+.menu-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.menu-btn .inputColors{
+  width: 150px;
+  flex:1;
+  border: 0;
+  outline: 0;
+  background: white;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.menu-btn .buttonCreate{
   background-color: #1b1b1b;
   color: #ffffff;
   font-size: 20px;
@@ -60,39 +98,17 @@ height: 155px;
   border-radius:0px 5px 5px 0;
 }
 
-.box{
-  display: grid;
-  place-items: center;
-  margin: 20px auto;
+.menu-cboxes{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.box2{
+.menu-cboxes .cbox{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: #ffffff;
-  margin-bottom: 20px;
-  padding-left: 15px;
-  border-radius: 5px;
+  gap:8px;
 }
 
-input{
-  width: 150px;
-  flex:1;
-  border: 0;
-  outline: 0;
-  background: white;
-  font-size: 15px;
 
-}
 
-h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bolder;
-  font-size: 40px;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  text-shadow: 5px 5px 10px rgba(117, 122, 143, 0.2);
-}

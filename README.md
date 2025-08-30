@@ -19,11 +19,6 @@ Most of these projects are based on other peoples codes and youtube tutorials, w
 - 🔢 **js-converter**  
   Length converter using JavaScript, html and css.
   
-- 🎮 **js-rock-paper-scissors-game**   
-  using JavaScript, html and css.
-  
-- 🎨 **js-colors-generator**   
-  generate a color palette of sRGB random colors, using JavaScript, html and css.
 
 **PHP**
 - 🛒 **crud_tienda**  
